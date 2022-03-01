@@ -1,0 +1,232 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --background: #FFFFFF;
+    --header-background: #666666;
+    --border-colour:#222222;
+    --header-font: #14ABB2;
+    --text-font: #666666;
+    --label-background: #14ABB2;
+    --label-font: #FFFFFF;
+    --link-color:#FFFFFF;
+  }
+  
+html {
+    /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+    font-size: 62.5%;
+}
+
+body {
+    /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+        Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+    /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: var(--text-font);
+    background-color: var(--background);
+    min-width: 53rem;
+}
+
+header {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--header-background);
+    color: var(--header-font);
+    border-width: 1rem;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--header-background);
+    color: var(--label-font);
+    border-width: 1rem;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+nav a {
+    color: var(--link-color);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.625rem;
+    color: var(--header-font);
+    line-height: 1.3;
+    padding-left: 1rem;
+}
+
+h1 {
+    /* 4rem = 40px (4 * 10px) */
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {    
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2.0rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    flex:1;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+hr {
+    height:3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.test .image {
+    width: 200%;
+    height: auto;
+}
+.section {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    position: relative;
+    text-align: left;
+}
+
+.profile-image {
+    width:35rem;
+    height: auto;
+    padding: 0.25rem;
+    border-color: var(--border-colour);
+    border-style: solid;
+    border-width: 0.2rem;
+    margin-left: 1rem;
+}
+
+.item-image {
+    max-width: 100%;
+    padding: 0.25rem;
+    border-color: var(--border-colour);
+    border-style: solid;
+    border-width: 0.2rem;
+    margin: 1rem 1rem;
+}
+
+.label {
+    flex:1 1 auto;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 6rem;
+    left: 2rem;
+    width:25rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    background-color: var(--label-background);
+    color: var(--label-font);
+  }
+
+.label h3 {
+    color:black;
+}
+
+.label span {
+    margin-left: 0.5rem;
+}
+
+
+
+
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+
+    header {
+        justify-content: space-between;
+    }
+
+    .item-image {
+        max-width:60rem;
+    }
+
+    .showcase {
+        max-width: 70rem;
+    }
+}
+  
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    p {
+        width:50%;
+        margin-left: 5rem;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .item-image {
+        max-width:49rem;
+    }
+
+    .showcase {
+        max-width: 100rem;
+    }
+
+}
