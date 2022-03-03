@@ -3,122 +3,148 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rob Davis Profile</title>
+        <title>Rob Davis Full Stack Developer</title>
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
-        <!-- Add icon link -->
+        <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
     </head>
-
+    <!-- Mobile first design with media queries to adjust to larger screens -->
     <body>
         <header>
             <h1>Rob Davis Profile</h1>
             <nav>
                 <ul>
                     <li>
-                        <!-- Link to seach engine optimisation solutions section -->
+                        <!-- Link to about me section -->
                         <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <!-- Link to reputation managment solutions section -->
+                        <!-- Link to my work section -->
                         <a href="#my-work">My Work</a>
                     </li>
                     <li>
-                        <!-- Link to social media marketing section -->
+                        <!-- Link to contact me section -->
                         <a href="#contact-me">Contact Me</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <!-- <section class="test">
-                <img src="./assets/images/fullstack.jpg" alt="Image of full stack developer">
-            </section> -->
-            <h2>About Me</h2>
-            <section class="section profile" id="about-me">
-                <figure>
-                    <img class="profile-image" src="./assets/images/me-cropped.jpg" alt="Profile picture">
-                </figure>
-                <article>
-                    <p>
-                        Career professional with extensive operational, engineering, project management, commercial, 
-                        business management and software development capabilities.
-                    </p>
-                    <p>
-                        A well respected team player that leads by example with a proven ability to deliver customer requirements and business objectives.
-                    </p>
-                    <p>
-                        Excellent customer relationship and experience management across executive, corporate and consumer customers. 
-                    </p>
-                    <p>
-                        My experience allows me to bring to life what customers expect across the full stack web development process.
-                    </p>
-                </article>
+            <section class="section" id="about-me">
+                <h2>About Me</h2>
+                <!-- Flexbox for profile section -->
+                <section class="profile">
+                    <figure class="profile-image">
+                        <img src="./assets/images/me-cropped.jpg" alt="Profile picture">
+                    </figure>
+                    <article>
+                        <p>
+                            Career professional with extensive operational, engineering, project management, commercial, 
+                            business management and software development capabilities.
+                        </p>
+                        <p>
+                            A well respected team player that leads by example with a proven ability to deliver customer requirements and business objectives.
+                        </p>
+                        <p>
+                            Excellent customer relationship and experience management across executive, business and consumer clients. 
+                        </p>
+                        <p>
+                            The capabilities I have gained throughout my career allows me to bring to life client's expectations across the full stack web development process.
+                        </p>
+                        <p>
+                            From inital concept design and creation of user stories and acceptance criteria, to implementing the client side user exerience and server functionality.
+                        </p>
+                        <p>
+                            I have a passion for web development and seeing projects through to a successful completion.
+                        </p>
+                    </article>
+                </section>
             </section>
             <hr>
+            <!-- Work showcase section -->
             <section class="section" id="my-work">
                 <h2>Work</h2>
+                <!-- Flexbox container to hold showcase items -->
                 <section class="container">
-                    <a href="https://www.datashore.com.au" target="_blank">
-                    <figure class="item">
-                        <img class="item-image showcase " src="./assets/images/datashore.png" alt="Image of website">
-                        <div class="label">
-                            <h3>Datashore Solutions</h3>
-                            <p>Some other text</p>
-                        </div>
-                    </figure>
-                    </a>
-                </section>
-                <section class="container">
-                    <figure class="item">
-                        <img class="item-image" src="./assets/images/datashore.png" alt="Image of website">
-                        <div class="label">
-                            <h3>The Papermill 414</h3>
-                            <span>CMS HTML CSS JAVASCRIPT fff fff fff</span>
-                        </div>
-                    </figure>
-                    <figure class="item">
-                        <img class="item-image" src="./assets/images/datashore.png" alt="Image of website">
-                        <div class="label">
-                            <h3>Datashore Solutions</h3>
-                            <p>Some other text</p>
-                        </div>
+                    <!-- Main showcase item. Uses maximum container width -->
+                    <figure class="item showcase">
+                        <!-- Anchor link to showcase item website. Opens in new browser tab/window -->
+                        <a href="https://www.datashore.com.au" target="_blank">
+                            <!-- Showcase class sets main showcase size in larger screen sizes -->
+                            <img src="./assets/images/datashore.png" alt="Image of main showcase website">
+                            <!-- Label position fixed (absolute) to showcase item -->
+                            <div class="label">
+                                <h3>Datashore Solutions</h3>
+                                <span class="label-text">CMS HTML CSS JAVASCRIPT PHP MYSQL HOSTING</span>
+                            </div>
+                        </a>
                     </figure>
                 </section>
                 <section class="container">
+                    <!-- Other howcase items. 2 per row-->
                     <figure class="item">
-                        <img class="item-image" src="./assets/images/datashore.png" alt="Image of website">
-                        <div class="label">
-                            <h3>Datashore Solutions</h3>
-                            <p>Some other text</p>
-                        </div>
+                        <a href="https://www.thepapermill414.com.au" target="_blank">
+                            <img src="./assets/images/thepapermill.png" alt="Image of website">
+                            <div class="label">
+                                <h3>The Papermill 414</h3>
+                                <span class="label-text">CMS HTML CSS JAVASCRIPT PHP MYSQL</span>
+                            </div>
+                        </a>
                     </figure>
                     <figure class="item">
-                        <img class="item-image" src="./assets/images/datashore.png" alt="Image of website">
-                        <div class="label">
-                            <h3>Datashore Solutions</h3>
-                            <p>Some other text</p>
-                        </div>
+                        <a href="coming.html" target="_blank">
+                            <img src="./assets/images/code.jpg" alt="Image of website">
+                            <div class="label">
+                                <h3>Placeholder 1</h3>
+                                <span class="label-text">HTML CSS JAVASCRIPT NODE.JS MYSQL PYTHON</span>
+                            </div>
+                        </a>
+                    </figure>
+                </section>
+                <section class="container">
+                    <figure class="item">
+                        <a href="coming.html" target="_blank">
+                            <img src="./assets/images/code.jpg" alt="Image of website">
+                            <div class="label">
+                                <h3>Placeholder 3</h3>
+                                <span class="label-text">HTML CSS JAVASCRIPT NODE.JS MYSQL</span>
+                            </div>
+                        </a>
+                    </figure>
+                    <figure class="item">
+                        <a href="coming.html" target="_blank">
+                            <img src="./assets/images/code.jpg" alt="Image of website">
+                            <div class="label">
+                                <h3>Placeholder 3</h3>
+                                <span class="label-text">HTML CSS JAVASCRIPT NODE.JS MYSQL APIs AWS</span>
+                            </div>
+                        </a>
                     </figure>
                 </section>
             </section>
             <hr>
-            <section>
+            <!-- Contact details section -->
+            <section class="section">
                 <h2>Contact Me</h2>
-                <section class="content" id="contact-me">
-                    <p>
-                        ☎ Phone:222222
-                        ✉ Email:
-                        LinkedIn:
-                        Github:
-                    </p>
-
+                <section class="contact" id="contact-me">
+                    <div class="contact-item">
+                        ☏ Phone: 0402 101 333
+                    </div>
+                    <div class="contact-item">
+                        ✉ Email: <a href = "mailto:robertpdavis@optusnet.com.au">robertpdavis@optusnet.com.au</a>
+                    </div>
+                    <div class="contact-item">
+                        <a href = "https://linkedin.com/in/robdavisaus" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <a href = "https://github.com/robertpdavis" target="_blank">Github</a>
+                    </div>
                 </section>
             </section>
         </main>
 
         <footer>
-            Coding is Fun! 😊
-            
+            Rob Davis Full Stack Developer
         </footer>
     </body>
 </html>
