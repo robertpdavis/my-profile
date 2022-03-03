@@ -17,17 +17,16 @@ Code commented for readability and accesibilty tags considered.
 
 Note: The Papermill 414 website is no longer operational as client is no longer in business.
 
-File List
-index.html
-coming.html
-/assets/css/reset.css
-/assets/css/style.css
-/assets/images/code.jpg
-/assets/images/datashor.png
-/assets/images/favicon.ico
-/assets/images/me-cropped.jpg
-/assets/images/thepapermill.png
-
+File List <br/>
+index.html <br/>
+coming.html <br/>
+/assets/css/reset.css <br/>
+/assets/css/style.css <br/>
+/assets/images/code.jpg <br/>
+/assets/images/datashor.png <br/>
+/assets/images/favicon.ico <br/>
+/assets/images/me-cropped.jpg <br/>
+/assets/images/thepapermill.png <br/>
 
 Site is currently hosted on Github pages at: https://robertpdavis.github.io/my-profile/ 
 
