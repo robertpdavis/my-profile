@@ -20,6 +20,7 @@ Note: The Papermill 414 website is no longer operational as client is no longer 
 File List <br/>
 index.html <br/>
 coming.html <br/>
+screenshot.png <br/>
 /assets/css/reset.css <br/>
 /assets/css/style.css <br/>
 /assets/images/code.jpg <br/>
