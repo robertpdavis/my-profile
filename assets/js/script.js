@@ -40,7 +40,7 @@ function openModal(showCase) {
             break;
         case 4:
             showCaseTitle = "Weather Dashboard";
-            showCaseBody = "Business customer utlising the Joomlas CMS and modifications on HTML, CMS, JS, PHP";
+            showCaseBody = "Responsive (bootsrtrap) dashboard showing weather for searched location. HTML DOM using JQuery. OpenWeather API.";
             showCaseLink = "https://robertpdavis.github.io/weather-pro/";
             gitHubRepo = "https://github.com/robertpdavis/weather-pro";
             break;
