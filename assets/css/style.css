@@ -8,6 +8,7 @@
     --label-background: #14ABB2;
     --label-font: #FFFFFF;
     --link-color: #FFFFFF;
+    --mod-title-desc-color: #000000;
 }
 
 html {
@@ -232,6 +233,10 @@ hr {
     border-width: 2rem;
     font-size: 8rem;
     font-weight: 700;
+}
+
+.title-desc {
+    color: var(--mod-title-desc-color);
 }
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
