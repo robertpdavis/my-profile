@@ -45,10 +45,11 @@ function openModal(showCase) {
             gitHubRepo = "https://github.com/robertpdavis/weather-pro";
             break;
         case 5:
-            showCaseTitle = "Future Project";
-            showCaseBody = "Stay tuned for an exciting new project coming soon!";
-            showCaseLink = "";
-            gitHubRepo = "";
+            showCaseTitle = "Dark Crawler";
+            showCaseBody = `This project was built in Node.js using the express and sequelize packages utilizing the MVC paradigm.JS, 
+            Node.js, MongoDB,Handlebars, Model-View-Controller, dotenv, MySQL, Cookies, Sessions`;
+            showCaseLink = "https://dark-crawler.herokuapp.com/";
+            gitHubRepo = "https://github.com/robertpdavis/dark-crawler";
             break;
         default:
             return;
