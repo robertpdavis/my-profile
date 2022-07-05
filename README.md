@@ -2,7 +2,7 @@
 
 Profile for Rob Davis Full Stack Web Developer
 
-Webpage profile overview built as mobile first using HTML and CSS with flexbox and media queries to create a responsive design. Also includes a bootstrap modal for user interaction. 
+Webpage profile overview built as mobile first using HTML and CSS with flexbox and media queries to create a responsive design. Also includes a bootstrap modal for user interaction. Runs on node.js express server. 
 
 The profile webpage has several sections:
 
@@ -31,7 +31,8 @@ screenshot.png <br/>
 /assets/images/me_profile.jpg <br/>
 /assets/images/thepapermill.png <br/>
 
-Site is currently hosted on Github pages at: https://robertpdavis.github.io/my-profile/ 
+Site is currently hosted on Github pages at: https://robertpdavis.github.io/my-profile/
+Also deployed on Heroku: https://rob-davis-profile.herokuapp.com/ 
 
 Screenshot
 ![Webpage screenshot](https://github.com/robertpdavis/my-profile/blob/main/screenshot.png "Screenshot of webpage")
